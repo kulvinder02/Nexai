@@ -21,7 +21,6 @@
     padding-left: 12px;
 }
 footer{
-    background: #040404;
     height: 100vh;
 }
 section{
@@ -59,4 +58,19 @@ ul li a{
     right: 0px;
     overflow: hidden;
 }
-
+.box-bg{
+    background:#042222
+}
+.white-space{
+    white-space: pre-line;
+}
+.btn-started{
+    padding: 18px 32px 18px 32px;
+    border-radius: 18px;
+    background-color: #02CDCF;
+    border: none;
+}
+.mx-150{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}

@@ -3,6 +3,7 @@
     --black-color:#000;
     --blue-color:  #02CDCF;
     --white-color: white;
+    --bg-color: #040404;
     /* color */
 
     /* font-size */
@@ -95,4 +96,7 @@
 
 .clr-blue{
     color: var(  --blue-color);
+}
+.clr-bg{
+    background-color: var(--bg-color);
 }
