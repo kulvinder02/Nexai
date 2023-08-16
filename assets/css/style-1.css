@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "recharge";
+    src: url(/assets/fonts/recharge\ bd.ttf);
+}
+.font-recharge{
+    font-family: "recharge";
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    /* border: 1px solid red; */
+}
+.container-main{
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+footer{
+    background: #040404;
+    height: 100vh;
+}
+section{
+    background-image: url(/assets/images/footer-moon.png);
+    background-position: center;
+    background-size: cover;
+}
+ul p{
+    color: white;
+    font-family: "recharge";
+    font-weight: 700;
+    font-size: 18px;
+    width: 130px;
+}
+ul li a{
+    color: white;
+    font-family: "recharge";
+      font-weight: 700;
+      opacity: 0.7;
+}
+.pr-190{
+    padding-right: 190px;
+}
+.footer-line{
+    height: 2px;
+    width: 1140px;
+    background-color: white;
+}
+.blur-circle{
+    width: 228px;
+    height: 228px;
+    background-color:  #02CDCF;
+    filter: blur(196px);
+    position: absolute;
+    right: 0px;
+    overflow: hidden;
+}
+
