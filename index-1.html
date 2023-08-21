@@ -11,14 +11,16 @@
     <link rel="stylesheet" href="./assets/css/root.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body class="clr-bg">
+<body  class="clr-bg">
+
     <!-- section start -->
         <section class="p-4">
         <div class="container-box box-border py-5 light-bg opacity-8">
             <div class="row align-items-center ">
-                <div class="col-6 col-sm-12 col-lg-6">
+                <div data-aos="fade-left" class="col-6 col-sm-12 col-lg-6 ">
                     <h1 class="clr-blue font-recharge ms-lg-5 text-sm-center text-lg-start">What is NexAi?</h1>
                     <p class="clr-white opacity-75 font-poppins ms-lg-5 text-sm-center text-lg-start">Beyond its convenience, Nexai revolutionizes the way you interact with your home environment. It
                         enhances productivity, efficiency, and overall well-being. From managing your schedules to
@@ -31,7 +33,7 @@
                         with effortless control.</p>
                         <div class="text-sm-center text-lg-start"><button class="btn-learn font-recharge ms-lg-5">Learn More</button></div>
                 </div>
-                <div class="col-6 col-sm-12 col-lg-6 d-sm-flex justify-content-sm-center position-relative">
+                <div data-aos="fade-right" class="col-6 col-sm-12 col-lg-6 d-sm-flex justify-content-sm-center position-relative  ">
                     <img class="mix-blend-dodge" src="./assets/images/Artboard 6 1.png" alt="">
                     <div class="blur-circle circle-2 "></div>
                 </div>
@@ -42,14 +44,14 @@
     <!-- section start -->
     <section class="py-5 mt-lg-5">
         <div class="container-main">
-            <div class="row">
+            <div  class="row">
                 <h1 class="text-center font-recharge clr-blue">NexAI Token & utility</h1>
                 <div class="col-6 col-sm-12 col-lg-6 position-relative">
-                    <div class="aiHand">
+                    <div  class="aiHand">
                         <img class="position-relative w-100" src="./assets/images/ai hand.png" alt="">
                     </div>
                 </div>
-                <div class="col-6 col-sm-12 col-lg-6 pt-lg-5 mt-lg-5">
+                <div data-aos="fade-right" class="col-6 col-sm-12 col-lg-6 pt-lg-5 mt-lg-5">
                     <div class=" overflow-hidden">
                         <div class="timeline-roadmap scroll-bar">
                             <div class="container-roadmap left  pb-sm-3">
@@ -103,7 +105,7 @@
     <!-- section start+ -->
     <section class="mx-150">
         <div class="container-main">
-            <div class="d-flex align-items-center justify-content-between box-bg">
+            <div data-aos="fade-up" class="d-flex align-items-center justify-content-between box-bg">
                 <h1 class="clr-white font-recharge fs-40 white-space">Ready to get started
                     <span class="clr-blue font-recharge fs-40 ">Talk to us Today</span> </h1>
                 <button class="btn-started font-recharge fs-18">Get Started</button>
@@ -117,7 +119,7 @@
             <div class="blur-circle"></div>
             <div class="container-main moon-bg">
                 <div class="row flex-sm-column flex-lg-row ">
-                    <div class="col-6 col-sm-12 col-lg-6 justify-content-sm-center">
+                    <div data-aos="fade-up" class="col-6 col-sm-12 col-lg-6 justify-content-sm-center">
                         <h2 class="font-recharge clr-white opacity-75 fs-16 pr-190 pe-sm-0 pb-2 text-sm-center">Nullam viverra natoque amet et
                             sed scelerisque viverra fringilla platea. Ullamcorper.</h2>
                         <div class="d-flex gap-3 justify-content-sm-center pb-sm-4">
@@ -127,7 +129,7 @@
                         </div>
                     </div>
                     <div class="col-6 col-sm-12 col-lg-6 d-flex justify-content-lg-between justify-content-sm-center">
-                        <div class="col-3">
+                        <div data-aos="fade-left" class="col-3">
                             <ul class="d-flex flex-column gap-2 pb-2">
                                 <p class="">Quick links</p>
                                 <li><a href="">Home</a></li>
@@ -138,7 +140,7 @@
                                 <li><a href="">About</a></li>
                             </ul>
                         </div>
-                        <div class="col-3 ">
+                        <div data-aos="fade-right" class="col-3 ">
                             <ul class="d-flex flex-column gap-2">
                                 <p>Information's</p>
                                 <li><a href="">Contact</a></li>
@@ -157,6 +159,10 @@
     <!-- footer end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
