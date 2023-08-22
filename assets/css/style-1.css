@@ -267,6 +267,7 @@ ul li a:hover::after {
     text-align: justify;
 }
 
+
 @media (min-width:320px) {
     :root {
         --fs-16: 10px !important;
