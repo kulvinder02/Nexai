@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500&family=Rye&family=Sen:wght@400;500;600;700;800&family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@100;200;400;500;600&display=swap');
+
+@font-face {
+    font-family: "recharge";
+    src: url("../fonts/recharge\ bd.ttf");
+}
+
 :root{
+    /* font */
+    --ff-primary: 'recharge' ;
+    --ff-secondary: 'Poppins', sans-serif;
+    /* font */
+
+
     /* color */
     --black-color:#000;
-    --blue-color:  #02CDCF;
+    --green-color:  #02CDCF;
     --white-color: white;
     /* color */
 
@@ -15,6 +28,7 @@
     --fs-15: 15px;
     --fs-24: 24px;
     --fs-28: 28px;
+    --fs-32: 32px;
 
     /* font-size */
 
@@ -44,6 +58,9 @@
 
 .fs-16 {
     font-size: var(--fs-16);
+}
+.fs-32 {
+    font-size: var(--fs-32);
 }
 
 .fs-24 {
@@ -83,16 +100,91 @@
 
 
 
+.clr-white-op{
+    color: white;
+    opacity: 0.7;
+}
 
-
-.clr-blue {
-    color: var(--blue-color);
+.clr-white {
+    color: var( --white-color);
 }
 
 .clr-black {
     color: var(--black-color);
 }
 
-.clr-blue{
-    color: var(  --blue-color);
+.clr-green{
+    color: var(  --green-color);
+}
+.ff-rechrge{
+    font-family: var(--ff-primary);
+}
+.ff-poppins{
+    font-family: var(--ff-secondary);
+}
+@media (min-width:320px) {
+
+    .hro-bg-image {
+        margin-top: 20px;
+        min-height: 574px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        background-image: url(../images/hro-bg-image.png);
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    :root{
+        --fs-16: 10px;
+        --fs-14: 14px;
+        --fs-18: 8px;
+        --fs-60: 20px;
+        --fs-40: 16px;
+        --fs-20: 10px;
+    }
+}
+@media (min-width:576px) {
+    :root{
+        --fs-16: 12px;
+        --fs-14: 14px;
+        --fs-18: 12px;
+        --fs-60: 30px;
+        --fs-40: 22px;
+        --fs-20: 14px;
+    }
+}
+@media (min-width:768px) {
+    :root{
+        --fs-16: 14px;
+        --fs-14: 14px;
+        --fs-18: 16px;
+        --fs-60: 40px;
+        --fs-40: 32px;
+        --fs-20: 18px;
+    
+    }
+}
+@media (min-width:992px) {
+    .hro-bg-image {
+        margin-top: 20px;
+        min-height: 774px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        background-image: url(../images/hro-bg-image.png);
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    :root{
+        --fs-16: 16px;
+        --fs-14: 14px ;
+        --fs-18: 18px;
+        --fs-60: 60px;
+        --fs-40: 40px;
+        --fs-20: 20px;
+        --fs-15: 15px;
+        --fs-24: 24px;
+        --fs-28: 28px;
+        --fs-32: 32px;
+    }
 }
