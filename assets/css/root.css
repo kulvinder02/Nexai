@@ -16,6 +16,7 @@
     --black-color:#000;
     --green-color:  #02CDCF;
     --white-color: white;
+    --blue-color:  #02CDCF;
     /* color */
 
     /* font-size */
@@ -98,7 +99,9 @@
     font-weight: var(--fw-700);
 }
 
-
+.clr-blue{
+    color: var(  --blue-color);
+}
 
 .clr-white-op{
     color: white;
@@ -142,6 +145,18 @@
         --fs-40: 16px;
         --fs-20: 10px;
     }
+    :root {
+        --fs-16: 10px !important;
+        --fs-14: 14px;
+        --fs-18: 18px;
+        --fs-60: 60px;
+        --fs-40: 40px;
+        --fs-20: 20px;
+        --fs-15: 15px;
+        --fs-24: 12px !important;
+        --fs-28: 28px;
+        --fs-40: 20px !important;
+    }
 }
 @media (min-width:576px) {
     :root{
@@ -151,6 +166,50 @@
         --fs-60: 30px;
         --fs-40: 22px;
         --fs-20: 14px;
+    }
+    .timeline-roadmap::after {
+        height: 520px;
+    }
+
+    :root {
+        --fs-16: 12px !important;
+        --fs-14: 14px;
+        --fs-18: 10px !important;
+        --fs-60: 60px;
+        --fs-40: 40px;
+        --fs-20: 20px;
+        --fs-15: 15px;
+        --fs-24: 16px !important;
+        --fs-28: 28px;
+        --fs-40: 22px !important;
+    }
+
+    .px-150 {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .circle-2 {
+        position: absolute;
+        top: 30%;
+        left: 13%;
+        width: 430px;
+    }
+
+    .btn-learn {
+        padding: 18px 32px 18px 32px;
+        font-size: 18px;
+    }
+
+    .btn-started {
+        padding: 18px 32px 18px 32px;
+    }
+    ul p {
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    ul li a{
+        font-size: 16px;
     }
 }
 @media (min-width:768px) {
@@ -163,6 +222,24 @@
         --fs-20: 18px;
     
     }
+    :root {
+        --fs-16: 12px !important;
+        --fs-14: 14px;
+        --fs-18: 18px;
+        --fs-60: 60px;
+        --fs-40: 40px;
+        --fs-20: 20px;
+        --fs-15: 15px;
+        --fs-18: 16px !important;
+        --fs-24: 18px !important;
+        --fs-28: 28px;
+        --fs-40: 28px !important;
+    }
+
+    .timeline-roadmap::after {
+        height: 440px;
+    }
+    
 }
 @media (min-width:992px) {
     .hro-bg-image {
@@ -186,5 +263,32 @@
         --fs-24: 24px;
         --fs-28: 28px;
         --fs-32: 32px;
+    }
+    .timeline-roadmap::after {
+        height: 550px;
+    }
+
+    .mx-150 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media (min-width:1200px) {
+    :root {
+        --fs-16: 16px !important;
+        --fs-14: 14px;
+        --fs-18: 18px;
+        --fs-60: 60px;
+        --fs-40: 40px;
+        --fs-20: 20px;
+        --fs-15: 15px;
+        --fs-18: 18px !important;
+        --fs-24: 24px !important;
+        --fs-28: 28px;
+        --fs-40: 40px !important;
+    }
+
+    .timeline-roadmap::after {
+        height: 800px;
     }
 }
