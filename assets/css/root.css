@@ -142,15 +142,15 @@
         --fs-14: 14px;
         --fs-18: 8px;
         --fs-60: 20px;
-        --fs-40: 16px;
+        --fs-40: 16px !important;
         --fs-20: 10px;
     }
     :root {
         --fs-16: 10px !important;
         --fs-14: 14px;
         --fs-18: 18px;
-        --fs-60: 60px;
-        --fs-40: 40px;
+        --fs-60: 60px !important;
+        --fs-40: 40px !important;
         --fs-20: 20px;
         --fs-15: 15px;
         --fs-24: 12px !important;
