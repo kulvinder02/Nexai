@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500&family=Rye&family=Sen:wght@400;500;600;700;800&family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@100;200;400;500;600&display=swap');
+
+@font-face {
+    font-family: "recharge";
+    src: url("../fonts/recharge\ bd.ttf");
+}
+
 :root{
+    /* font */
+    --ff-primary: 'recharge' ;
+    --ff-secondary: 'Poppins', sans-serif;
+    /* font */
+
+
     /* color */
     --black-color:#000;
-    --blue-color:  #02CDCF;
+    --green-color:  #02CDCF;
     --white-color: white;
-    --bg-color: #040404;
+    --blue-color:  #02CDCF;
     /* color */
 
     /* font-size */
-    --fs-12: 12px;
     --fs-16: 16px;
     --fs-14: 14px ;
     --fs-18: 18px;
@@ -17,6 +29,7 @@
     --fs-15: 15px;
     --fs-24: 24px;
     --fs-28: 28px;
+    --fs-32: 32px;
 
     /* font-size */
 
@@ -36,9 +49,6 @@
 .fs-14 {
     font-size: var(--fs-14);
 }  
-.fs-12 {
-    font-size: var(--fs-12);
-}  
 .fs-18 {
     font-size: var(--fs-18);
 }
@@ -49,6 +59,9 @@
 
 .fs-16 {
     font-size: var(--fs-16);
+}
+.fs-32 {
+    font-size: var(--fs-32);
 }
 
 .fs-24 {
@@ -86,21 +99,196 @@
     font-weight: var(--fw-700);
 }
 
+.clr-blue{
+    color: var(  --blue-color);
+}
 
-
-
+.clr-white-op{
+    color: white;
+    opacity: 0.7;
+}
 
 .clr-white {
-    color: var(--white-color);
+    color: var( --white-color);
 }
 
 .clr-black {
     color: var(--black-color);
 }
 
-.clr-blue{
-    color: var(  --blue-color);
+.clr-green{
+    color: var(  --green-color);
 }
-.clr-bg{
-    background-color: var(--bg-color);
+.ff-rechrge{
+    font-family: var(--ff-primary);
+}
+.ff-poppins{
+    font-family: var(--ff-secondary);
+}
+@media (min-width:320px) {
+
+    .hro-bg-image {
+        margin-top: 20px;
+        min-height: 574px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        background-image: url(../images/hro-bg-image.png);
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    :root{
+        --fs-16: 10px;
+        --fs-14: 14px;
+        --fs-18: 8px;
+        --fs-60: 20px;
+        --fs-40: 16px !important;
+        --fs-20: 10px;
+    }
+    :root {
+        --fs-16: 10px !important;
+        --fs-14: 14px;
+        --fs-18: 18px;
+        --fs-60: 60px !important;
+        --fs-40: 40px !important;
+        --fs-20: 20px;
+        --fs-15: 15px;
+        --fs-24: 12px !important;
+        --fs-28: 28px;
+        --fs-40: 20px !important;
+    }
+}
+@media (min-width:576px) {
+    :root{
+        --fs-16: 12px;
+        --fs-14: 14px;
+        --fs-18: 12px;
+        --fs-60: 30px;
+        --fs-40: 22px;
+        --fs-20: 14px;
+    }
+    .timeline-roadmap::after {
+        height: 520px;
+    }
+
+    :root {
+        --fs-16: 12px !important;
+        --fs-14: 14px;
+        --fs-18: 10px !important;
+        --fs-60: 60px;
+        --fs-40: 40px;
+        --fs-20: 20px;
+        --fs-15: 15px;
+        --fs-24: 16px !important;
+        --fs-28: 28px;
+        --fs-40: 22px !important;
+    }
+
+    .px-150 {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .circle-2 {
+        position: absolute;
+        top: 30%;
+        left: 13%;
+        width: 430px;
+    }
+
+    .btn-learn {
+        padding: 18px 32px 18px 32px;
+        font-size: 18px;
+    }
+
+    .btn-started {
+        padding: 18px 32px 18px 32px;
+    }
+    ul p {
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    ul li a{
+        font-size: 16px;
+    }
+}
+@media (min-width:768px) {
+    :root{
+        --fs-16: 14px;
+        --fs-14: 14px;
+        --fs-18: 16px;
+        --fs-60: 40px;
+        --fs-40: 32px;
+        --fs-20: 18px;
+    
+    }
+    :root {
+        --fs-16: 12px !important;
+        --fs-14: 14px;
+        --fs-18: 18px;
+        --fs-60: 60px;
+        --fs-40: 40px;
+        --fs-20: 20px;
+        --fs-15: 15px;
+        --fs-18: 16px !important;
+        --fs-24: 18px !important;
+        --fs-28: 28px;
+        --fs-40: 28px !important;
+    }
+
+    .timeline-roadmap::after {
+        height: 440px;
+    }
+    
+}
+@media (min-width:992px) {
+    .hro-bg-image {
+        margin-top: 20px;
+        min-height: 774px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        background-image: url(../images/hro-bg-image.png);
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    :root{
+        --fs-16: 16px;
+        --fs-14: 14px ;
+        --fs-18: 18px;
+        --fs-60: 60px;
+        --fs-40: 40px;
+        --fs-20: 20px;
+        --fs-15: 15px;
+        --fs-24: 24px;
+        --fs-28: 28px;
+        --fs-32: 32px;
+    }
+    .timeline-roadmap::after {
+        height: 550px;
+    }
+
+    .mx-150 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media (min-width:1200px) {
+    :root {
+        --fs-16: 16px !important;
+        --fs-14: 14px;
+        --fs-18: 18px;
+        --fs-60: 60px;
+        --fs-40: 40px;
+        --fs-20: 20px;
+        --fs-15: 15px;
+        --fs-18: 18px !important;
+        --fs-24: 24px !important;
+        --fs-28: 28px;
+        --fs-40: 40px !important;
+    }
+
+    .timeline-roadmap::after {
+        height: 800px;
+    }
 }

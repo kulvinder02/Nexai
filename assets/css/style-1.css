@@ -110,9 +110,9 @@ ul li a {
     color: #02CDCF;
 }
 
-.mx-150 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+.px-150 {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .timeline-roadmap {
@@ -301,9 +301,9 @@ ul li a:hover::after {
         --fs-40: 22px !important;
     }
 
-    .mx-150 {
-        margin-top: 0;
-        margin-bottom: 50px;
+    .px-150 {
+        padding-top: 0;
+        padding-bottom: 50px;
     }
 
     .circle-2 {
