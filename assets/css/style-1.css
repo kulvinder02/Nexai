@@ -19,7 +19,7 @@
     box-sizing: border-box;
     text-decoration: none !important;
     list-style-type: none !important;
-    /* border: 1px solid red; */
+    /* border: 1px solid red;*/
     transition: all 400ms;
 }
 
@@ -44,13 +44,17 @@
     background-position: center;
     background-size: cover;
 }
+p{
+    margin-bottom: 0px !important;
+}
 
 ul p {
     color: white;
     font-family: "recharge";
     font-weight: 700;
-    font-size: 18px;
+    font-size: 12px;
     width: 130px;
+    margin-left: -25px;
 }
 
 ul li a {
@@ -61,8 +65,11 @@ ul li a {
 }
 
 .pr-190 {
-    padding-right: 190px;
+    padding-right: 0px;
 }
+/* .pr-190 {
+    padding-right: 190px;
+} */
 
 .footer-line {
     height: 2px;
@@ -89,11 +96,13 @@ ul li a {
 }
 
 .btn-started {
-    padding: 18px 32px 18px 32px;
+    font-size: 8px;
+    padding: 8px 14px;
     border-radius: 18px;
     background-color: #02CDCF;
     border: none;
 }
+
 
 .btn-started:hover {
     border: 1px solid #02CDCF;
@@ -102,8 +111,8 @@ ul li a {
 }
 
 .mx-150 {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .timeline-roadmap {
@@ -121,7 +130,7 @@ ul li a {
     bottom: 0;
     left: 12px;
     margin-left: -3px;
-    height: 1050px;
+    height: 510px;
 }
 
 .container-roadmap {
@@ -168,11 +177,13 @@ ul li a {
 }
 
 .btn-learn {
-    padding: 18px 32px 18px 32px;
+    padding: 10px 20px;
+    font-size: 8px;
     border-radius: 12px;
     border: none;
     background-color: #02CDCF;
 }
+
 
 .btn-learn:hover {
     border: 1px solid #02CDCF;
@@ -221,6 +232,7 @@ ul {
 ul li a {
     display: inline-block;
     position: relative;
+    font-size: 10px;
 }
 
 ul li a::after {
@@ -238,6 +250,36 @@ ul li a::after {
 
 ul li a:hover::after {
     transform: scaleX(1);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.circle-2 {
+    position: absolute;
+    top: 0%;
+    left: 6%;
+    width: 240px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+@media (min-width:320px) {
+    :root {
+        --fs-16: 10px !important;
+        --fs-14: 14px;
+        --fs-18: 18px;
+        --fs-60: 60px;
+        --fs-40: 40px;
+        --fs-20: 20px;
+        --fs-15: 15px;
+        --fs-24: 12px !important;
+        --fs-28: 28px;
+        --fs-40: 20px !important;
+    }
 }
 
 @media (min-width:576px) {
@@ -263,6 +305,28 @@ ul li a:hover::after {
         margin-bottom: 50px;
     }
 
+    .circle-2 {
+        position: absolute;
+        top: 30%;
+        left: 13%;
+        width: 430px;
+    }
+
+    .btn-learn {
+        padding: 18px 32px 18px 32px;
+        font-size: 18px;
+    }
+
+    .btn-started {
+        padding: 18px 32px 18px 32px;
+    }
+    ul p {
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    ul li a{
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -315,8 +379,9 @@ ul li a:hover::after {
     }
 
     .timeline-roadmap::after {
-        height: 490px;
+        height: 440px;
     }
+    
 }
 
 @media (min-width:992px) {

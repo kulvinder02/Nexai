@@ -7,6 +7,7 @@
     /* color */
 
     /* font-size */
+    --fs-12: 12px;
     --fs-16: 16px;
     --fs-14: 14px ;
     --fs-18: 18px;
@@ -34,6 +35,9 @@
 
 .fs-14 {
     font-size: var(--fs-14);
+}  
+.fs-12 {
+    font-size: var(--fs-12);
 }  
 .fs-18 {
     font-size: var(--fs-18);
