@@ -73,10 +73,12 @@ ul li a {
 
 .footer-line {
     height: 2px;
-    max-width: 1140px;
+    max-width: 100%;
     background-color: white;
 }
-
+h2{
+    margin-bottom: unset !important;
+}
 .blur-circle {
     width: 228px;
     height: 228px;
@@ -96,7 +98,6 @@ ul li a {
 }
 
 .btn-started {
-    font-size: 8px;
     padding: 8px 14px;
     border-radius: 18px;
     background-color: #02CDCF;

@@ -138,23 +138,14 @@
         background-size: 100% 100%;
     }
     :root{
-        --fs-16: 10px;
-        --fs-14: 14px;
-        --fs-18: 8px;
-        --fs-60: 20px;
+        --fs-60: 20px !important;
         --fs-40: 16px !important;
-        --fs-20: 10px;
     }
     :root {
         --fs-16: 10px !important;
-        --fs-14: 14px;
-        --fs-18: 18px;
-        --fs-60: 60px !important;
+        --fs-60: 28px !important;
         --fs-40: 40px !important;
-        --fs-20: 20px;
-        --fs-15: 15px;
         --fs-24: 12px !important;
-        --fs-28: 28px;
         --fs-40: 20px !important;
     }
 }
@@ -163,7 +154,7 @@
         --fs-16: 12px;
         --fs-14: 14px;
         --fs-18: 12px;
-        --fs-60: 30px;
+       
         --fs-40: 22px;
         --fs-20: 14px;
     }
@@ -173,15 +164,10 @@
 
     :root {
         --fs-16: 12px !important;
-        --fs-14: 14px;
         --fs-18: 10px !important;
-        --fs-60: 60px;
-        --fs-40: 40px;
-        --fs-20: 20px;
-        --fs-15: 15px;
         --fs-24: 16px !important;
-        --fs-28: 28px;
         --fs-40: 22px !important;
+        --fs-60: 30px !important;
     }
 
     .px-150 {
@@ -217,23 +203,17 @@
         --fs-16: 14px;
         --fs-14: 14px;
         --fs-18: 16px;
-        --fs-60: 40px;
+       
         --fs-40: 32px;
         --fs-20: 18px;
     
     }
     :root {
         --fs-16: 12px !important;
-        --fs-14: 14px;
-        --fs-18: 18px;
-        --fs-60: 60px;
-        --fs-40: 40px;
-        --fs-20: 20px;
-        --fs-15: 15px;
         --fs-18: 16px !important;
         --fs-24: 18px !important;
-        --fs-28: 28px;
         --fs-40: 28px !important;
+        --fs-60: 40px !important;
     }
 
     .timeline-roadmap::after {
@@ -255,8 +235,8 @@
     :root{
         --fs-16: 16px;
         --fs-14: 14px ;
-        --fs-18: 18px;
-        --fs-60: 60px;
+        --fs-18: 18px !important;
+        --fs-60: 60px !important;
         --fs-40: 40px;
         --fs-20: 20px;
         --fs-15: 15px;
@@ -276,15 +256,8 @@
 @media (min-width:1200px) {
     :root {
         --fs-16: 16px !important;
-        --fs-14: 14px;
-        --fs-18: 18px;
-        --fs-60: 60px;
-        --fs-40: 40px;
-        --fs-20: 20px;
-        --fs-15: 15px;
         --fs-18: 18px !important;
         --fs-24: 24px !important;
-        --fs-28: 28px;
         --fs-40: 40px !important;
     }
 

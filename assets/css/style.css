@@ -286,9 +286,27 @@ p {
     z-index: 1000;
     background: #0e0e0e;
 }
+.fttr-svg1:hover svg path{
+    cursor: pointer;
+     fill: white;
+}
+.fttr-svg2:hover svg path{
+    cursor: pointer;
+     fill: white;
+     stroke: white;
+}
+.fttr-svg3:hover svg path{
+    cursor: pointer;
+     stroke: white;
+     
+}
 
 
 @media (min-width:992px) {
+    .fttr-para{
+        padding-right: 390px !important;
+    }
+    
     .trnlate-y {
         margin-left: 800px;
     }
@@ -315,6 +333,9 @@ p {
 
 
 @media (max-width:992px) {
+    .overflow_hidden{
+        overflow: hidden !important;
+    }
     .nav-bttn {
         border-radius: 6px !important;
         padding: 6px 18px !important;
@@ -332,7 +353,7 @@ p {
     
     
     .nav-bar-sm {
-        position: absolute;
+        position: fixed;
         top: 0;
         left: -100%;
         width: 100%;
@@ -379,10 +400,6 @@ p {
     .hro-bg-image{
         min-height: 476px !important;
     }
-    
-}
-
-@media (min-width:320px) {
     
 }
 
